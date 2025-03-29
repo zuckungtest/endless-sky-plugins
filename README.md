@@ -21,6 +21,8 @@ I've got another new project, a github repository that lets you online generate 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
 <br>
 
+<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/better.starts.zip?labelColor=gray&color=black"></a>
+
 ## Latest News:
 <table><tr><td><img width="882" height="1"><br>2025-03-29 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
@@ -43,6 +45,7 @@ I've got another new project, a github repository that lets you online generate 
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#betterstarts">better.starts</a><br>
 <img width="294" height="1"><br></td></tr></table>
+
 
 
 
