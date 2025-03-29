@@ -1,0 +1,223 @@
+# category "bay type"
+# mission "add full map"
+# outfit "Full Human Space Map"
+# ship "Quarg Skylark (Explorer)"
+# ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
+# ship "Heron" "Heron (Disabler)"
+# ship "Heron" "Heron (Quarg)"
+
+
+category "ship"
+	"modified Heavy Warship"
+
+
+category "bay type"
+	"modified Heavy Warship"
+
+
+mission "add full map"
+	invisible
+	outfitter
+	source "Earth"
+	to offer
+		has "give map"
+	on offer
+		outfit "Full Human Space Map"
+		conversation
+			`As soon as you arrive at the local outfitter, the technicians copy all the information they have about Human space to your navigation computer! It's nice to be a premium customer.`
+				decline
+
+
+outfit "Full Human Space Map"
+	category "Special"
+	cost 100000
+	thumbnail "outfit/map"
+	"map" 300
+	description "This tablet computer contains data on all star systems within human space: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+
+ship "Quarg Skylark (Explorer)"
+	sprite "ship/skylark"
+	thumbnail "thumbnail/skylark"
+	attributes
+		category "modified Heavy Warship"
+		"cost" 5900000
+		"shields" 120000
+		"hull" 70000
+		"required crew" 120
+		"bunks" 210
+		"mass" 990
+		"drag" 18.5
+		"heat dissipation" .47
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 120
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Antimatter Core"
+		"Fuel Module" 2
+		"Intrusion Countermeasures" 120
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Outfits Expansion" 4
+		"Quantum Keystone"
+		"Quantum Shield Generator"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+		"Wanderer Ramscoop" 3
+	engine -15 117
+	engine 15 117
+	turret -12 -80 "Quarg Skylance"
+	turret 12 -80 "Quarg Skylance"
+	turret -34 24 "Quarg Anti-Missile"
+	turret 34 24 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The Skylark is used by the Quarg as a freighter and warship."
+
+
+ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Disabler)"
+	outfits
+		"Catalytic Ramscoop"
+		"Double Plasma Core"
+		"Fuel Module"
+		"Fuel Processor" 2
+		"Husk-Slice Turret" 4
+		"Jump Drive"
+		"Large Heat Shunt" 3
+		"Quantum Keystone"
+		"Shield Disruptor Turret" 2
+		"Small Heat Shunt"
+		"Steering (Planetary Class)"
+		"Systems Core (Large)"
+		"Thruster (Stellar Class)"
+		"Triple Plasma Core"
+		"Warder Anti-Missile" 2
+
+
+ship "Heron" "Heron (Disabler)"
+	outfits
+		"Aeon Cell" 4
+		"Bellows-Class Afterburner" 3
+		"Crystal Capacitor" 10
+		"Emergency Ramscoop" 10
+		"Husk-Slice Turret" 4
+		"Shield Disruptor Turret" 2
+		"Husk-Slice"
+		"Jump Drive"
+		"Large Heat Shunt" 5
+		"Point Defense Turret" 3
+		"Quantum Key Stone"
+		"Salvage Scanner" 5
+		"Smelter-Class Steering" 5
+		"Smelter-Class Thruster" 4
+		"Thermoelectric Cooler" 5
+
+
+ship "Heron" "Heron (Quarg)"
+	add attributes
+		"weapon capacity" 30
+		"engine capacity" 40
+		"outfit space" 220
+	outfits
+		"Antimatter Core" 6
+		"Bunk Room" 7
+		"Emergency Ramscoop" 10
+		"Fragmentation Grenades" 3000
+		"Jump Drive"
+		"NDR-114 Android" 990
+		"Nanotech Battery" 2
+		"Quantum Shield Generator" 2
+		"Quantum Key Stone"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 7
+		"Medium Graviton Steering" 7
+		"Medium Graviton Thruster" 7
+		"Research Laboratory"
+	bay "modified Heavy Warship" -124 -122.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 124 -122.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -176 -50.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 176 -50.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -148.5 4
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 148.5 4
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -56 -150
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 56 -150
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -37 -121.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 37 -121.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -33.5 -99
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 33.5 -99
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -27 -81
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 27 -81
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -24 -49.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 24 -49.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -40 -3
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 40 -3
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" -28 22.5
+		"launch effect" "remnant internal"
+	bay "modified Heavy Warship" 28 22.5
+		"launch effect" "remnant internal"
+	bay "Drone" -77.5 71.5
+		"launch effect" "remnant internal"
+	bay "Drone" 77.5 71.5
+		"launch effect" "remnant internal"
+	bay "Drone" -89.5 114
+		"launch effect" "remnant internal"
+	bay "Drone" 89.5 114
+		"launch effect" "remnant internal"
+	bay "Drone" -138.5 152.5
+		"launch effect" "remnant internal"
+	bay "Drone" 138.5 152.5
+		"launch effect" "remnant internal"
+	bay "Drone" -171 165.5
+		"launch effect" "remnant internal"
+	bay "Drone" 171 165.5
+		"launch effect" "remnant internal"
+	bay "Drone" -190.5 197.5
+		"launch effect" "remnant internal"
+	bay "Drone" 190.5 197.5
+		"launch effect" "remnant internal"
+	bay "Drone" -105 229.5
+		"launch effect" "remnant internal"
+	bay "Drone" 105 229.5
+		"launch effect" "remnant internal"
+	bay "Fighter" -31 70.5
+		"launch effect" "remnant internal"
+	bay "Fighter" 31 70.5
+		"launch effect" "remnant internal"
+	bay "Fighter" -40 190
+		"launch effect" "remnant internal"
+	bay "Fighter" 40 190
+		"launch effect" "remnant internal"
