@@ -19,7 +19,7 @@ jobs:
         run: python res/src/makemd.py
       - name: Commit file
         run: |
-          git config user.name "zuckungtest" 
+          git config user.name "zuckung" 
           git config user.email "zuckung@gmx.de"
           git add .
           git diff-index --quiet HEAD || git commit -m "README.md updated"
