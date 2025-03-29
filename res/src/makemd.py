@@ -235,6 +235,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
+		pa_template = pa_template.replace('%downloadcount%', withdots + '.zip')
 		if assetsize != 'N/A':
 			pa_template = pa_template.replace('%size%', str(round(assetsize, 2)) + form)
 		else:
@@ -247,7 +248,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		pa_template = pa_template.replace('%readme%', readme)
 		pa_template = pa_template.replace('%icon%', icon)
 		pa_template = pa_template.replace('%screenshots%', screenshotcode)
-		pa_template = pa_template.replace('%downloadcount%', downloadcountbadge)
 		# write index file
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
