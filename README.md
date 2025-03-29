@@ -55,7 +55,7 @@ I've got another new project, a github repository that lets you online generate 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.20-additional.command.buttons.radial/additional.command.buttons.radial.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/additional.command.buttons.radial.zip?labelColor=gray&color=black"></a><br>
+<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/additional.command.buttons.radial.zip?label=downloads%3A&labelColor=black&color=black"><br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -265,7 +265,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/automata.destruction.0percent.zip?labelColor=gray&color=black"></a><br>
+<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/automata.destruction.0percent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -342,7 +342,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/automata.in.human.space.zip?labelColor=gray&color=black"></a><br>
+<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/automata.in.human.space.zip?label=downloads%3A&labelColor=black&color=black"><br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
@@ -405,7 +405,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
-<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/better.starts.zip?labelColor=gray&color=black"></a><br>
+<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/better.starts.zip?label=downloads%3A&labelColor=black&color=black"><br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
