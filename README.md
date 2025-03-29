@@ -11,7 +11,9 @@ If you are familiar with Python, the scripts in the <a href="tools/README.md">to
 <br>
 I've got another new project, a github repository that lets you online generate a galaxy with up to 500 star systems and some more options to configurate that galaxy. When done, you can download it as a plugin. Here is the link. <a href="https://github.com/zuckung/ES-GalaxyGenerator">https://github.com/zuckung/ES-GalaxyGenerator</a><br>
 <br>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzuckung%2Fendless-sky-plugins&count_bg=%2395c20e&title_bg=%235a5a5a&icon=&icon_color=%235A5A5A&title=hits&edge_flat=false"/></a>
+<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/total"></a>
+<a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/zuckung/endless-sky-plugins/myplugins?label=plugins"></a>
+
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/commit-activity/t/zuckung/endless-sky-plugins"></a>
@@ -54,6 +56,7 @@ I've got another new project, a github repository that lets you online generate 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.20-additional.command.buttons.radial/additional.command.buttons.radial.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
+%downloadcount%<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
@@ -263,6 +266,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
+%downloadcount%<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -339,6 +343,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
+%downloadcount%<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
@@ -401,6 +406,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
+%downloadcount%<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
