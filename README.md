@@ -53,7 +53,7 @@ I've got another new project, a github repository that lets you online generate 
 ### additional.command.buttons.radial
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/additional.command.buttons.radial.png">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.20-additional.command.buttons.radial/additional.command.buttons.radial.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
 <br>
@@ -263,7 +263,7 @@ screenshots(click to enlarge):<br>
 ### automata.destruction.0percent
 
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.destruction.0percent.png">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png">
 
 [automata.destruction.0percent.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.08 kb | 2024-06-07 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
 <br>
@@ -340,7 +340,7 @@ changed readme<br>
 ### automata.in.human.space
 
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/automata.in.human.space.png">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png">
 
 [automata.in.human.space.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | 35.86 kb | 2024-09-24 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
 <br>
@@ -403,7 +403,7 @@ changed icon.png<br>
 ### better.starts
 
 <img src="myplugins/better.starts/icon.png" height="100">
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/better.starts.png">
+<img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png">
 
 [better.starts.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | 23.58 kb | 2024-12-19 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
