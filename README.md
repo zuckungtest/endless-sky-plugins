@@ -53,9 +53,8 @@ I've got another new project, a github repository that lets you online generate 
 ### additional.command.buttons.radial
 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
-
+<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/additional.command.buttons.radial.png">
 [additional.command.buttons.radial.zip](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.20-additional.command.buttons.radial/additional.command.buttons.radial.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) | <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
-<img src="https://raw.githubusercontent.com/zuckung/statistics/main/pics/additional.command.buttons.radial.png"><br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
