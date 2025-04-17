@@ -3,7 +3,6 @@ I aim at developing small, modular and maximal compatible plugins that don't bre
 Please excuse bad English, spelling, grammar, etc... English isn't my mother tongue. Feel free to correct me.<br>
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
-
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/total"></a>
@@ -13,7 +12,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
 <br>
-<br>
+
 ## Latest News:
 <table>
 <tr>
@@ -33,7 +32,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 </tr>
 </table>
 
-<br>
+
 ## Plugin List:<br>
 <table>
 <tr valign="top">
@@ -47,7 +46,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img width="294" height="1"><br></td></tr></table>
 
 <br>
-<br>
+
 ## Other things
 <br>
 If you are familiar with Python, the scripts in the <a href="tools/README.md">tools-folder</a> might be interesting. There are a few to generate some of my plugins (to keep them up-to-date). And others like an ES jpg map creator or a PR files downloader.<br>
@@ -416,7 +415,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png">
 
-[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.6-better.starts/better.starts.zip) | 23.58 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
+[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.7-better.starts/better.starts.zip) | 23.58 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 <details>
