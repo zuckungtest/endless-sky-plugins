@@ -200,7 +200,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 			for line in description_list:
 				if line.startswith('about "'):
 					pos1 = line.find('"')
-					line = line[pos1+1:len(line)]
+					line = line[pos1+1:len(line)-1]
 					break
 			description = description + '>' + line		
 		elif os.path.isfile(pathtoplugins + entry + '/about.txt'):
