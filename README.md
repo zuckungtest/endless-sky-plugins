@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-03-29 | update: additional.command.buttons.radial<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: automata.destruction.0percent<br>
+2025-03-29 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
 2025-02-20 | update: mission.helper<br>
-2025-02-17 | update: mission.helper<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -265,7 +265,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png">
 
-[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.1-automata.destruction.0percent/automata.destruction.0percent.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
