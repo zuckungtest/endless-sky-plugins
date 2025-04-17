@@ -136,7 +136,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 				pluginlist += '<img width="294" height="1"><br></td><td><img width="294" height="1"><br>\n'
 	pluginlist += '<img width="294" height="1"><br></td></tr></table>\n'
 	# writes the template header to the README.md
-	with open('README.md', 'w') as file1:
+	with open(indexfile, 'w') as file1:
 		file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
 	print('\nREADME.md written!')
 	# read plugin folders, and create a plugin view for each
@@ -144,8 +144,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	entries = sorted(entries)
 	screenshots = os.listdir('screenshots' + os.sep)
 	screenshots = sorted(screenshots)
-	with open(indexfile, 'w') as file1:
-			file1.writelines('')
 	for entry in entries:
 		withdots = entry.replace(' ', '.')
 		# this is the %pluginnameurl% (forweb) variable, currently only replacing spaces
