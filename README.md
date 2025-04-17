@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: automata.destruction.0percent<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: automata.in.human.space<br>
+2025-04-17 | update: automata.destruction.0percent<br>
 2025-03-29 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
 2025-02-23 | update: additional.command.buttons.radial<br>
-2025-02-20 | update: mission.helper<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -342,7 +342,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png">
 
-[automata.in.human.space.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.1-automata.in.human.space/automata.in.human.space.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
+[automata.in.human.space.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | 35.87 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
