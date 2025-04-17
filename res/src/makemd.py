@@ -263,7 +263,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
-		print('entry + ' WRITTEN')
+		print(entry + ' WRITTEN')
 	print(indexfile + ' COMPLETE!')	
 	# deleting zip from runner, in case release.py is run before this py
 	files = os.listdir()
