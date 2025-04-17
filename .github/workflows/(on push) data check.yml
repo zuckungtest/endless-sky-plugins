@@ -20,9 +20,7 @@ jobs:
       run: |
         mkdir endless-sky
         Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
-        rmdir .\myplugins\additional.command.buttons.radial -Recurse -Force
         move .\myplugins .\endless-sky\plugins
-#       delete additional.command.buttons.radial because it has android scripts
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
       shell: bash
