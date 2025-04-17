@@ -47,23 +47,23 @@ myplugins/example.plugin
 res/template.txt
 <ul>
   <li>from here comes the static readme.md content. this textfile is splitted into 2 part, the upper static content,  and the variable plugin template, separated by %plugin template below this line%'. each plugin gets this plugin template written to the README. it works with variables like '%variablename%'. these get replaced on generation. both parts can be mixed in html and markdown. experiment. i.e '%description%' variable gets replaced by the content from about.txt, '%size%' by kb/mb size, '%readme%' by the plugin readme.md content etc.</li>
+<li>useable variables inside template.txt:<br>
+%news%           html table of the latest 10 news entries<br>
+%pluginlist%     html table of anchor links to all plugins<br>
+%name%           the plugin name<br>
+%icon%           html img with plugin icon url, i.e '<img src="myplugins/PluginName/icon.png" height="100">'<br>
+%assetfile%      release zip name of the plugin, special chars and spaces are replaced by dots, i.e 'PluginName.zip'<br>
+%assetfullpath%  url to the plugin release, i.e. 'https://github.com/YourUserName/YourRepoName/releases/download/v1.0.1-PluginName/'<br>
+%size%           plugin size in mb or kb, or 'N/A' if no release found, i.e. '245.07 kb'<br>
+%lastmodified%   last modified date of the plugin release zip file, or 'N/A' if no release found, i.e '2025-04-17'<br>
+%pluginurl%      url path to the plugin folder, i.e. 'https://github.com/YourUserName/YourRepoName/tree/main/myplugins/'<br>
+%pluginnameurl%  plugin folder name, with space replaced by %20, i.e. 'PluginName'<br>
+%imagemd%        html link to a seperate plugin md file with all images of that plugin, i.e. '<a href="res/imagemd/PluginName.md">view images</a> [47]'<br>
+%description%    content of the plugin's' plugin.txt's about or of about.txt, or 'N/A' if none found<br>
+%readme%         content of the plugin's' README.md or 'N/A' if none found<br>
+%screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found<br>
+%version%        version number, i.e. '1.1.12'</li>
 </ul>
-useable variables inside template.txt:
-	%news%           html table of the news
-	%pluginlist%     html table of anchor links to the plugins
-	%name%           the plugin name
-	%icon%           html img with plugin icon url
-	%assetfile%      release zip name of the plugin, special chars and spaces are replaced by dots
-	%assetfullpath%  url to the plugin release
-	%size%           plugin size in mb or kb, or 'N/A' if no release found
-	%lastmodified%   last modified date of the plugin release zip file, or 'N/A' if no release found
-	%pluginurl%      url path to the plugin folder
-	%pluginnameurl%  plugin folder name, with space replaced by %20
-	%imagemd%        html link to a seperate plugin md file with all images of that plugin
-	%description%    content of the plugin's' plugin.txt or about.txt, or 'N/A' if none found
-	%readme%         content of the plugin's' README.md or 'N/A' if none found
-	%screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found
-	%version%        version number
 
 res/news.txt
 <ul>
