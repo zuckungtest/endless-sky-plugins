@@ -45,7 +45,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="README.md#betterstarts">better.starts</a><br>
 <img width="294" height="1"><br></td></tr></table>
 
-<br>
 
 ## Other things
 <br>
