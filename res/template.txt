@@ -17,7 +17,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 
 ## Plugin List:<br>
 %pluginlist%
-<br>
 
 ## Other things
 <br>
