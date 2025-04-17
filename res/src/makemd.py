@@ -8,7 +8,6 @@ from PIL import Image
 
 def check_local():
 	# for local testing
-	print(os.getcwd()) # /home/runner/work/endless-sky-plugins/endless-sky-plugins
 	# get the path to the plugins, this is the %pluginurl% (pluginurl) variable, useable in the template.txt
 	if os.getcwd() == '/storage/emulated/0/Download/mgit/endless-sky-plugins/res/src':
 		os.chdir('../../')
@@ -28,7 +27,7 @@ def make_imagemd(name, current_repo):
 			if file.endswith('.png') or file.endswith('.jpg'):
 				graphicFiles.append(os.path.join(root, file))
 	graphicFiles.sort()
-	# write md
+	# write images md
 	if len(graphicFiles) > 0:
 		if not os.path.isdir('res/imagemd/'):
 			os.mkdir('res/imagemd/')
@@ -74,7 +73,7 @@ def make_imagemd(name, current_repo):
 			target.writelines('</table>\n')
 		link = '| <a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
 	else:
-		link = ''
+		link = 'N/A'
 	print('plugin.mds with all images written to res/imagemd/\n')
 	return link
 
@@ -84,17 +83,18 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	# %news%           html table of the news
 	# %pluginlist%     html table of anchor links to the plugins
 	# %name%           the plugin name
-	# %icon%           html img with icon url
+	# %icon%           html img with plugin icon url
 	# %assetfile%      release zip name of the plugin, special chars and spaces are replaced by dots
-	# %assetfullpath%  url to the release
-	# %size%           size in mb or kb
-	# %lastmodified%   last modified date of the release zip file
+	# %assetfullpath%  url to the plugin release
+	# %size%           plugin size in mb or kb, or 'N/A' if no release found
+	# %lastmodified%   last modified date of the plugin release zip file, or 'N/A' if no release found
 	# %pluginurl%      url path to the plugin folder
 	# %pluginnameurl%  plugin folder name, with space replaced by %20
 	# %imagemd%        html link to a seperate plugin md file with all images of that plugin
-	# %description%    content of the plugin's' about.txt
-	# %readme%         content of the plugin's' README.md
-	# %screenshots%    html table of the plugin screenshots from the screenshot folder
+	# %description%    content of the plugin's' plugin.txt or about.txt, or 'N/A' if none found
+	# %readme%         content of the plugin's' README.md or 'N/A' if none found
+	# %screenshots%    html table of the plugin screenshots from the screenshot folder, or '' if none found
+	# %version%        version number
 
 	# read templates
 	with open(templatefile, 'r') as file1:
@@ -176,7 +176,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 			if not len(screenshotlist)%3 == 3%3:
 				screenshotcode = screenshotcode + '\t</tr>\n'
 			screenshotcode = screenshotcode + '</table>\n<br>\n'
-		# gets the version number
+		# gets the %version% (version_number) variable out of versioning.txt
 		with open('res/versioning.txt', 'r') as read_version:
 			version_lines = read_version.readlines()
 		found = 0
@@ -190,7 +190,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 			version_number = '1.0.0'
 		# gets the %assetfullpath% (assetfiles) variable
 		assetfiles = 'https://github.com/' + current_repo + '/releases/download/v' + version_number + '-' + withdots + '/'
-		
 		# gets the %description% (description) variable out of about.txt
 		description = ''
 		if os.path.isfile(pathtoplugins + entry + '/plugin.txt'):
@@ -201,20 +200,23 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 					pos1 = line.find('"')
 					line = line[pos1+1:len(line)]
 					break
-				description = description + '>' + line
-				
+				description = description + '>' + line		
 		elif os.path.isfile(pathtoplugins + entry + '/about.txt'):
 			with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
 				description_list = file1.readlines()
 			for line in description_list:
 				description = description + '>' + line
-				
+		else:
+			description = '>N/A'		
 		# gets the %readme% (readme) variable out of the plugin readme.md
-		with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
-			readme_list = file1.readlines()
 		readme = ''
-		for line in readme_list:
-			readme = readme + line + '\n' 
+		if os.path.isfile(pathtoplugins + entry + '/README.md'):
+			with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
+				readme_list = file1.readlines()
+			for line in readme_list:
+				readme = readme + line + '\n' 
+		else:
+			readme = 'N/A'
 		# gets the last modified date from the assetfile, this is the %lastmodified% (modif) variable
 		try:
 			response = requests.head(assetfiles + withdots + '.zip', allow_redirects=True)
@@ -241,16 +243,10 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 			icon = ''
 		# create imagemd and return link, this is the %imagemd% (imagemdlink) variable
 		imagemdlink = make_imagemd(entry, current_repo)
-		
-		# create downloadcount badge
-		#downloadcountbadge = '<a href="https://img.shields.io/">' \
-		#	+ '<img src="https://img.shields.io/github/downloads/' + current_repo + '/' + withdots + '.zip?color=blue"></a>'
-		
 		# replace template with %variables%
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
-		pa_template = pa_template.replace('%downloadcount%', withdots + '.zip')
 		if assetsize != 'N/A':
 			pa_template = pa_template.replace('%size%', str(round(assetsize, 2)) + form)
 		else:
@@ -263,6 +259,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		pa_template = pa_template.replace('%readme%', readme)
 		pa_template = pa_template.replace('%icon%', icon)
 		pa_template = pa_template.replace('%screenshots%', screenshotcode)
+		pa_template = pa_template.replace('%version%', version_number)
 		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
