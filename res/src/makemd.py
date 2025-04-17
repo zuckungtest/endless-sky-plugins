@@ -191,7 +191,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		print(version_number)
 		# gets the %assetfullpath% (assetfiles) variable
 		assetfiles = 'https://github.com/' + current_repo + '/releases/download/v' + version_number + '-' + withdots + '/'
-		print(assetfiles)
 		# gets the %description% (description) variable out of about.txt
 		description = ''
 		if os.path.isfile(pathtoplugins + entry + '/plugin.txt'):
