@@ -71,7 +71,7 @@ def make_imagemd(name, current_repo):
 				target.writelines('		<td></td>\n')
 				target.writelines('	</tr>\n')
 			target.writelines('</table>\n')
-		link = '| <a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
+		link = '<a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
 	else:
 		link = 'N/A'
 	print('plugin.mds with all images written to res/imagemd/\n')
