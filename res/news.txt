@@ -1,3 +1,4 @@
+2025-04-17 | update: additional.command.buttons.radial
 2025-04-17 | update: better.starts
 2025-04-17 | update: automata.in.human.space
 2025-04-17 | update: automata.destruction.0percent
