@@ -74,7 +74,7 @@ def make_imagemd(name, current_repo):
 		link = '<a href="res/imagemd/' + name + '.md">view images</a> [' + str(pos) + ']'
 	else:
 		link = 'N/A'
-	print(name + '.md with all images written to res/imagemd/\n')
+	print(name + '.md with all images written to res/imagemd/')
 	return link
 
 
@@ -138,7 +138,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	# writes the template header to the README.md
 	with open(indexfile, 'w') as file1:
 		file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
-	print('\nREADME.md header WRITTEN!')
+	print('README.md header WRITTEN!')
 	# read plugin folders, and create a plugin view for each
 	entries = os.listdir(pathtoplugins)
 	entries = sorted(entries)
@@ -263,8 +263,8 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
 			file1.writelines(pa_template)
-		print('\n' + entry + ' WRITTEN')
-	print('\n' + indexfile + ' COMPLETE!')	
+		print('entry + ' WRITTEN')
+	print(indexfile + ' COMPLETE!')	
 	# deleting zip from runner, in case release.py is run before this py
 	files = os.listdir()
 	for file in files:
