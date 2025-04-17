@@ -246,7 +246,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		imagemdlink = make_imagemd(entry, current_repo)
 		# replace template with %variables%
 		pa_template = pa_template.replace('%name%', entry)
-		print('assetfiles: 'assetfiles)
+		print('assetfiles: ' + assetfiles)
 		if '%assetfullpath%' in pa_template:
 			print('assetfullpath var found')
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
