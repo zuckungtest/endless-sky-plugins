@@ -22,7 +22,8 @@ I've got another new project, a github repository that lets you online generate 
 <br>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: automata.in.human.space<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: better.starts<br>
+2025-04-17 | update: automata.in.human.space<br>
 2025-04-17 | update: automata.destruction.0percent<br>
 2025-03-29 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
@@ -31,7 +32,6 @@ I've got another new project, a github repository that lets you online generate 
 2025-03-11 | update: gegno.pirates<br>
 2025-02-28 | update: additional.command.buttons.radial<br>
 2025-02-26 | update: mission.helper<br>
-2025-02-23 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -405,7 +405,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png">
 
-[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.4-better.starts/better.starts.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
+[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.5-better.starts/better.starts.zip) | 23.58 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
