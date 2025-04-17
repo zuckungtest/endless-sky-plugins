@@ -144,6 +144,8 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	entries = sorted(entries)
 	screenshots = os.listdir('screenshots' + os.sep)
 	screenshots = sorted(screenshots)
+	with open(indexfile, 'w') as file1:
+			file1.writelines('')
 	for entry in entries:
 		withdots = entry.replace(' ', '.')
 		# this is the %pluginnameurl% (forweb) variable, currently only replacing spaces
@@ -188,7 +190,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 				break
 		if found == 0:
 			version_number = '1.0.0'
-		print(version_number)
 		# gets the %assetfullpath% (assetfiles) variable
 		assetfiles = 'https://github.com/' + current_repo + '/releases/download/v' + version_number + '-' + withdots + '/'
 		# gets the %description% (description) variable out of about.txt
@@ -246,9 +247,6 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		imagemdlink = make_imagemd(entry, current_repo)
 		# replace template with %variables%
 		pa_template = pa_template.replace('%name%', entry)
-		print('assetfiles: ' + assetfiles)
-		if '%assetfullpath%' in pa_template:
-			print('assetfullpath var found')
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
 		pa_template = pa_template.replace('%assetfile%', withdots + '.zip')
 		if assetsize != 'N/A':
