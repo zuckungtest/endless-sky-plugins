@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-04-18 | update: better.starts this is a test<br>
 2025-04-18 | update: better.starts<br>
 2025-04-17 | update: additional.command.buttons.radial<br>
 2025-04-17 | update: better.starts<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-03-14 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: highrollers.ltd<br>
 2025-03-11 | update: highrollers.ltd<br>
-2025-03-11 | update: gegno.pirates<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -414,7 +414,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png">
 
-[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.8-better.starts/better.starts.zip) | 23.58 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
+[better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.9-better.starts/better.starts.zip) | 23.58 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 <details>
