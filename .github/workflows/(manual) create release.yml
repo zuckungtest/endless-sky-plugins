@@ -8,7 +8,7 @@ on:
         type: string
       news:
         description: 'news text?'
-        required: true
+        required: false
         default: 'update: PluginName'
         type: string
 jobs:
