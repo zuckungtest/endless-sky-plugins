@@ -66,17 +66,14 @@ def versioning(p, corrected):
 
 def write_news(p, inputnews):
 	today = datetime.today().strftime('%Y-%m-%d')
-	news = [today + ' | update: ' + p + '\n']
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
-	double = False
-	
+	print(inputnews)
 	if inputnews == 'empty':
-		newsfile.writelines(news + old)
-
+		news = ''
 	else:
-		
-	if double == False: # if not, then write
+		news = [today + ' | ' + inputnews.replace('PluginName', p) + '\n']
+	if news != '':
 		with open('res/news.txt', 'w') as newsfile:
 			newsfile.writelines(news + old)
 
