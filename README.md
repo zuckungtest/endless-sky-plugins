@@ -276,7 +276,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png">
 
-[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.3-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 <details>
