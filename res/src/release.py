@@ -69,7 +69,7 @@ def write_news(p, inputnews):
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
 	print(inputnews)
-	if inputnews == '':
+	if inputnews == 'x':
 		news = ''
 	else:
 		news = [today + ' | ' + inputnews.replace('PluginName', p) + '\n']
