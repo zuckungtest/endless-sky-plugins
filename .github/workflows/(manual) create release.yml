@@ -9,6 +9,7 @@ on:
       news:
         description: 'news text?'
         required: true
+        default: 'update: PluginName'
         type: string
 jobs:
   deploy:
