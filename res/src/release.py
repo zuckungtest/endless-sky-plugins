@@ -68,7 +68,6 @@ def write_news(p, inputnews):
 	today = datetime.today().strftime('%Y-%m-%d')
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
-	print(inputnews)
 	if inputnews == 'x':
 		news = ''
 	else:
