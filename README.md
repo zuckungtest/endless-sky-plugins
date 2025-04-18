@@ -18,6 +18,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <tr>
 <td><img width="882" height="1"><br>
 2025-04-18 | update: additional.command.buttons.radial<br>
+2025-04-18 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: better.starts this is a test<br>
 2025-04-18 | update: better.starts<br>
 2025-04-17 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-17 | update: automata.destruction.0percent<br>
 2025-03-29 | update: additional.command.buttons.radial<br>
 2025-03-14 | update: additional.command.buttons.radial<br>
-2025-03-14 | update: highrollers.ltd<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -67,7 +67,7 @@ I've got another new project, a github repository that lets you online generate 
 <img src="myplugins/additional.command.buttons.radial/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/additional.command.buttons.radial.png">
 
-[additional.command.buttons.radial.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.24-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
+[additional.command.buttons.radial.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.25-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 <details>
