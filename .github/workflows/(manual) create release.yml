@@ -6,6 +6,10 @@ on:
         description: 'which plugin?'
         required: true
         type: string
+      news:
+        description: 'news text?'
+        required: true
+        type: string
 jobs:
   deploy:
     name: First job
