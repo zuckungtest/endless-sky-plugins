@@ -64,17 +64,18 @@ def versioning(p, corrected):
 		myfile.write("UPDATE_TAG2="+ corrected + '-v' + new_version + '\n')
 	os.chdir('../')
 
-def write_news(p):
+def write_news(p, inputnews):
 	today = datetime.today().strftime('%Y-%m-%d')
 	news = [today + ' | update: ' + p + '\n']
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
 	double = False
-	for line in old: # check if today the same plugin got updated, and if so, don't add it again
-		if line == news[0]:
-			double = True
-			print('double entry! NOT adding to news!')
-			break
+	
+	if inputnews == 'empty':
+		newsfile.writelines(news + old)
+
+	else:
+		
 	if double == False: # if not, then write
 		with open('res/news.txt', 'w') as newsfile:
 			newsfile.writelines(news + old)
@@ -82,11 +83,12 @@ def write_news(p):
 
 def run():
 	p = os.environ['INPUT_STORE'] # plugin.name
+	inputnews = os.environ['INPUT_STORE2'] # news format
 	check_spelling(p)
 	corrected = correct_characters(p) # correct characters that get changed by github release
 	create_zip(p, corrected)
 	versioning(p, corrected)
-	write_news(p)
+	write_news(p, inputnews)
 
 if __name__ == "__main__":
 	run()
