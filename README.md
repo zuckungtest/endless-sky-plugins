@@ -69,7 +69,7 @@ I've got another new project, a github repository that lets you online generate 
 
 [additional.command.buttons.radial.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.25-additional.command.buttons.radial/additional.command.buttons.radial.zip) | 201.07 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/additional.command.buttons.radial/) <a href="res/imagemd/additional.command.buttons.radial.md">view images</a> [47]<br>
 <br>
->Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details
+>Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -279,7 +279,7 @@ screenshots(click to enlarge):<br>
 
 [automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.3-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
 <br>
->Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details
+>Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -356,7 +356,7 @@ changed readme<br>
 
 [automata.in.human.space.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | 35.87 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
 <br>
->Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details
+>Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -419,7 +419,7 @@ changed icon.png<br>
 
 [better.starts.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.9-better.starts/better.starts.zip) | 23.58 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/better.starts/) <a href="res/imagemd/better.starts.md">view images</a> [1]<br>
 <br>
->Adds several new start options with different ships, background stories, credits and debts. See the README for details
+>Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
