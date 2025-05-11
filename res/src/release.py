@@ -51,7 +51,7 @@ def versioning(p, corrected):
 					part += osplit[x] + '.'
 					new_version = part + new_version
 			else:
-				new_version = old_version.replace('.fixed', '')
+				new_version = old_version.replace('.fixed\n', '')
 			####
 			print(corrected + ' ' + old_version + ' to ' + new_version)
 			line = corrected + '|' + new_version + '\n' # complete updated line
