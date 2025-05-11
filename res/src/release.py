@@ -44,10 +44,15 @@ def versioning(p, corrected):
 			part = ''
 			old_version = linesplit[1]
 			osplit = old_version.split('.')
-			new_version = str(int(osplit[len(osplit)-1]) + 1) # new_version = last number + 1
-			for x in range(0, len(osplit)-1): # part = first part of version - last number
-				part += osplit[x] + '.'
-			new_version = part + new_version
+			#####
+			if osplit[len(ossplit)-1] != 'fixed'
+				new_version = str(int(osplit[len(osplit)-1]) + 1) # new_version = last number + 1
+				for x in range(0, len(osplit)-1): # part = first part of version - last number
+					part += osplit[x] + '.'
+					new_version = part + new_version
+			else:
+				newversion = old_version.replace('.fixed', '')
+			####
 			print(corrected + ' ' + old_version + ' to ' + new_version)
 			line = corrected + '|' + new_version + '\n' # complete updated line
 		newlines.append(line)
@@ -64,27 +69,29 @@ def versioning(p, corrected):
 		myfile.write("UPDATE_TAG2="+ corrected + '-v' + new_version + '\n')
 	os.chdir('../')
 
-def write_news(p, inputnews):
+def write_news(p):
 	today = datetime.today().strftime('%Y-%m-%d')
+	news = [today + ' | update: ' + p + '\n']
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
-	if inputnews == 'x':
-		news = ''
-	else:
-		news = [today + ' | ' + inputnews.replace('PluginName', p) + '\n']
-	if news != '':
+	double = False
+	for line in old: # check if today the same plugin got updated, and if so, don't add it again
+		if line == news[0]:
+			double = True
+			print('double entry! NOT adding to news!')
+			break
+	if double == False: # if not, then write
 		with open('res/news.txt', 'w') as newsfile:
 			newsfile.writelines(news + old)
 
 
 def run():
 	p = os.environ['INPUT_STORE'] # plugin.name
-	inputnews = os.environ['INPUT_STORE2'] # news format
 	check_spelling(p)
 	corrected = correct_characters(p) # correct characters that get changed by github release
 	create_zip(p, corrected)
 	versioning(p, corrected)
-	write_news(p, inputnews)
+	write_news(p)
 
 if __name__ == "__main__":
 	run()
