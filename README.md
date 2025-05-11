@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-05-11 | update: automata.destruction.0percent<br>
 2025-04-18 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: better.starts this is a test<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-17 | update: automata.in.human.space<br>
 2025-04-17 | update: automata.destruction.0percent<br>
 2025-03-29 | update: additional.command.buttons.radial<br>
-2025-03-14 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -277,7 +277,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png">
 
-[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.3-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-04-18 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.2.0-automata.destruction.0percent/automata.destruction.0percent.zip) | 44.09 kb | 2025-05-11 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [1]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -354,7 +354,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png">
 
-[automata.in.human.space.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | 35.87 kb | 2025-04-17 | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
+[automata.in.human.space.zip](https://github.com/zuckungtest/endless-sky-plugins/releases/download/v1.1.0-automata.in.human.space/automata.in.human.space.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/endless-sky-plugins/tree/main/myplugins/automata.in.human.space/) <a href="res/imagemd/automata.in.human.space.md">view images</a> [1]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
