@@ -1,7 +1,7 @@
 additional.command.buttons.radial|1.0.25
 additional.command.buttons|1.0.2
-automata.destruction.0percent|1.0.3
-automata.in.human.space|1.1.0.fixed
+automata.destruction.0percent|1.2.0.fixed
+automata.in.human.space|1.1.0
 avgi.licenses|1.0.0
 better.starts|1.0.9
 bunrodea.missions|1.0.7
