@@ -1,3 +1,4 @@
+2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a>
 2025-05-11 | update: automata.destruction.0percent
 2025-04-18 | update: additional.command.buttons.radial
 2025-04-18 | update: additional.command.buttons.radial
