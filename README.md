@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-06-18 | removed planet.pluto, original @ <href="https://github.com/LixiChronikouOriou/ES-plugins>https://github.com/LixiChronikouOriou/ES-plugins</a><br>
 2025-05-11 | update: automata.destruction.0percent<br>
 2025-04-18 | update: additional.command.buttons.radial<br>
 2025-04-18 | update: additional.command.buttons.radial<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-04-17 | update: better.starts<br>
 2025-04-17 | update: automata.in.human.space<br>
 2025-04-17 | update: automata.destruction.0percent<br>
-2025-03-29 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
