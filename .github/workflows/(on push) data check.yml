@@ -25,6 +25,8 @@ jobs:
         mkdir endless-sky
         dir
         Expand-Archive ${{ env.RELEASE }} -DestinationPath endless-sky -Force
+        cd endless-sky
+        dir
         move .\myplugins .\endless-sky\plugins
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
