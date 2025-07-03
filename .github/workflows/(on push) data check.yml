@@ -15,11 +15,13 @@ jobs:
       with:
         fetch-depth: 2
     - name: Download
-      run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
+      run: python3 res/src/getversion.py
+    - name: Download
+      run: gh release download -R endless-sky/endless-sky ${{ env.ES_VERSION }} -p ${{ env.RELEASE }}
     - name: Extract & prepare continuous
       run: |
         mkdir endless-sky
-        Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
+        Expand-Archive ${{ env.RELEASE }} -DestinationPath endless-sky -Force
         move .\myplugins .\endless-sky\plugins
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
