@@ -12,7 +12,7 @@ def get_version():
 #		versiontag = '"v' + onlineversion + ': Stable Release"'
 #	else:
 #		versiontag = '"v' + onlineversion + ': Unstable Release"'
-	releasev = 'EndlessSky-' + onlineversion + '-win64-setup.exe '
+	releasev = 'EndlessSky-' + onlineversion + '-win64-setup.zip '
 	env_file = os.getenv('GITHUB_ENV')
 	with open(env_file, "a") as myfile:
 		myfile.write("ES_VERSION=" + onlineversion + '\n')
