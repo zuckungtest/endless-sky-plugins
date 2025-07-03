@@ -23,6 +23,7 @@ jobs:
     - name: Extract & prepare continuous
       run: |
         mkdir endless-sky
+        dir
         Expand-Archive ${{ env.RELEASE }} -DestinationPath endless-sky -Force
         move .\myplugins .\endless-sky\plugins
     - name: Parse Datafiles
