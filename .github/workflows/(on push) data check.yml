@@ -16,17 +16,14 @@ jobs:
     - name: install libs
       run: |
         python3 -m pip install Requests
-    - name: Download
+    - name: Get version & set env
       run: python3 res/src/getversion.py
     - name: Download
       run: gh release download -R endless-sky/endless-sky ${{ env.ES_VERSION }} -p ${{ env.RELEASE }}
-    - name: Extract & prepare continuous
+    - name: Extract & prepare release
       run: |
         mkdir endless-sky
-        dir
         Expand-Archive ${{ env.RELEASE }} -DestinationPath endless-sky -Force
-        cd endless-sky
-        dir
         move .\myplugins .\endless-sky\plugins
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
